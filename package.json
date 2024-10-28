@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "env": "^0.0.2"
+    "env": "^0.0.2",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0"
   }
 }

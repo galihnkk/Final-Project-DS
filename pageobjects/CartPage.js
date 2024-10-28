@@ -1,4 +1,5 @@
 class CartPage {
+    
     constructor(page) {
         this.page = page;
         this.cartLink = '.shopping_cart_link';
@@ -10,8 +11,16 @@ class CartPage {
     }
 
     async validateItemInCart() {
-        await this.page.screenshot({ path: 'screenshots/cart.png' });
         return await this.page.isVisible(this.cartItem);
+    }
+
+    async takeScreenshot() {
+        await this.page.screenshot({ path: 'screenshots/cartPage.png' });
+    }
+
+    async validateCartPage(expect) { 
+        const screenshot = await this.page.screenshot();
+        expect(screenshot).toMatchSnapshot('cartPage.png');
     }
 }
 
