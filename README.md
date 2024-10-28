@@ -35,5 +35,6 @@ Web UI https://www.saucedemo.com/
 
 ## Report
 
-![image](https://github.com/user-attachments/assets/a7396273-bf7f-4a81-a57d-6519145f3ae3)
-![image](https://github.com/user-attachments/assets/37b4af56-54d0-4d77-8137-d886214a5fc3)
+![image](https://github.com/user-attachments/assets/c801b7cd-bbf5-4c38-a2a1-74047d68d9af)
+![image](https://github.com/user-attachments/assets/5995bcd9-7c6a-484d-9001-c65c80e79889)
+
